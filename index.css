@@ -1,3 +1,11 @@
+@media only screen and (max-width : 480) {
+    .move-rock, 
+    .move-paper, 
+    .move-scissor{
+        height: 30px;}
+    .move-emoji{
+        height: 50px;}
+
 body {
     background-color: rgb(25, 25, 25);
     color: white;
