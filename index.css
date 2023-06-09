@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.move-rock, 
+.move-paper, 
+.move-scissor{
+    height: 50px;
+}
+.button-move{
+    background-color: transparent;
+    border: solid 3px white;
+    border-radius: 50%;
+    padding: 30px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.move-emoji{
+    height: 50px;
+}
+.score{
+    margin-top: 60px;
+
+}
+.reset-btn{
+    border: none;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+}
