@@ -81,8 +81,8 @@ function playGame(playerMove){
         .innerHTML = result;
     document.querySelector('.js-moves')
         .innerHTML = `You
-<img src="/${playerMove}-emoji.png" alt="" class="move-emoji">
-<img src="/${computerMove}-emoji.png" alt="" class="move-emoji">
+<img src="${playerMove}-emoji.png" alt="" class="move-emoji">
+<img src="${computerMove}-emoji.png" alt="" class="move-emoji">
 Computer`;
 
 
